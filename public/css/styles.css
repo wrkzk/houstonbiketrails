@@ -155,6 +155,10 @@ body {
     transform: rotate(90deg);
 }
 
+.descriptiontitle {
+    text-align: center;
+}
+
 .description {
     margin-left: 15%;
     margin-right: 15%;
