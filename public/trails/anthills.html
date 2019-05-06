@@ -15,20 +15,14 @@
 		<div class="bodydiv">
 			<div class="backdiv"><a href="../trails.html">&larr; Back</a></div>
 			<h1 class="pagetext pageheader">Anthills at Terry Hershey Park</h1>
-			<div class=iframecontainer>
-				<div class="trailmap">
-					<iframe src="https://www.google.com/maps/d/embed?mid=1GwicX1md_9DlZKLEISRE0fFG1Ka5Vcpp"
-					width="100%" height="315" frameborder="0" allowfullscreen>
-					</iframe>
-				</div>
-				<div class="trailvideo">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/JhMT2cEzURQ" frameborder="0"
-					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-					width="100%" height="315">
-					</iframe>
-				</div>
-			</div>
-			<p class="pagetext">lorem ipsum</P>
+			<div id="trailsearchwrapper">
+	        	<input type="text" id="trailsearch" onkeyup="searchFunction()" placeholder="Search...">
+			<ul id="traillist">
+				<li><a href="anthills/part-1.html">Part 1</a></li>
+				<li><a href="anthills/part-2.html">Part 2</a></li>
+				<li><a href="anthills/part-3.html">Part 3</a></li>
+			</ul>
+		<script src="../js/trailsearch.js"></script>
 		</div>
 	</body>
 </html>
