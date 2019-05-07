@@ -91,11 +91,15 @@ body {
     text-decoration: none;
     font-size: 18px;
     color: black;
-    display: block;
+    display: inline;
     border-radius: 25px;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+#traillist li{
     width: 100%;
+    display: inline;
 }
 
 #traillist li a:hover:not(.header) {
@@ -139,7 +143,6 @@ body {
     max-width: 100%;
     margin: auto;
     position: relative;
-    background-color: black;
     max-height: 100px;
 }
 
@@ -167,4 +170,8 @@ body {
 
 .commentcontainer {
     text-align: left;
+}
+
+.spacer {
+    height: 30px;
 }
