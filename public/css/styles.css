@@ -197,9 +197,19 @@ body {
 }
 
 .comments {
-    text-align: left;
+    text-align: center;
+    background-color: white;
     padding-left: 30px;
     padding-right: 30px;
+    padding-top: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 10px #888888;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .spacer {
