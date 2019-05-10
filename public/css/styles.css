@@ -215,3 +215,17 @@ body {
 .spacer {
     height: 30px;
 }
+
+#contact {
+    margin-bottom: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: left;
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 10px #888888;
+}
