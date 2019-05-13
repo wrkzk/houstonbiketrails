@@ -284,7 +284,13 @@ body {
 }
 
 #cp_widget_59c5857e-a5e0-4d54-8151-d0cce0f985ef {
-    text-align: center;
+    display: inline-block;
     width: 50%;
-    justify-content: center;
 }
+
+#slideshowdiv {
+    text-align: center;
+}
+ #anthillsmap {
+     padding-top: 20px;
+ }
