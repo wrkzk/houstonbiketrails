@@ -23,6 +23,7 @@ body {
     max-width: 960px;
     margin: auto;
     box-sizing: border-box;
+    z-index: 2;
 
 }
 
@@ -292,7 +293,6 @@ body {
 #cp_widget_59c5857e-a5e0-4d54-8151-d0cce0f985ef {
     display: inline-block;
     width: 50%;
-    z-index: 1;
 }
 
 #slideshowdiv {
