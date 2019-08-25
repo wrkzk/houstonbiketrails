@@ -332,6 +332,7 @@ body {
     position: relative;
     bottom: 0;
     font-size: 15px;
+    margin-top: 9px;
     margin-bottom: 9px;
     margin-left: auto;
     margin-right: auto;
@@ -339,10 +340,14 @@ body {
 }
 
 #footer {
-    background-color: #66ff66;
+    background-color: #4CAF50;
     position: absolute;
     bottom: 0;
-    width: 100%;
+    min-width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 #sitemap {
@@ -353,6 +358,7 @@ body {
     position: relative;
     bottom: 0;
     font-size: 15px;
+    margin-top: 9px;
     margin-bottom: 9px;
     float: right;
     margin-left: auto;
